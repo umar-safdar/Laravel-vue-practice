@@ -15,7 +15,7 @@ use Inertia\Inertia;
 */
 
 Route::get('/', function () {
-    return Inertia::render('Pages/Layouts/index');
+    return Inertia::render('App/home');
 });
 
 Route::get('/login', function () {
